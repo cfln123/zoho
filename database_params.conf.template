@@ -1,0 +1,9 @@
+drivername=org.postgresql.Driver
+transaction_isolation=TRANSACTION_READ_COMMITTED
+exceptionsorterclassname=com.adventnet.db.adapter.postgres.PostgresExceptionSorter
+
+username=${DB_USER}
+password=${DB_PASS}
+url=jdbc:postgresql://${DB_HOST}:${DB_PORT}/zreportsdb?OpenSourceSubProtocolOverride=true&charSet=UTF-8
+minsize=${DB_POOL_MINSIZE}
+maxsize=${DB_POOL_MAXSIZE}

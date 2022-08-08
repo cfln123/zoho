@@ -1,0 +1,13 @@
+version: '3.1'
+services:
+  onprem:
+    image: cinch-zoho
+    environment:
+      - DB_USER=opuser
+      - DB_PASS=82f8f1f0b94642343076c1157fa227dbc004adb18697a3a2b508763794a104f0ded96fc6
+      - DB_HOST=localhost
+      - DB_PORT=33399
+    ports:
+      - 8443:8443
+    
+      
